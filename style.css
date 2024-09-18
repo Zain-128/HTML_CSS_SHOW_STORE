@@ -11,11 +11,14 @@ li{
     list-style-type: none;
 }
 
+.gray_color {
+    color: rgb(168, 159, 159);
+}
 .upper_container{
     max-width: 990px;
     width: 96%;
     margin: 0 auto;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 .upper_container h1{
     text-align: center;
@@ -24,3 +27,43 @@ li{
     font-weight: 900;
 }
 
+.main_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card_container{
+    /* max-width: 45%; */
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    max-width: 32%;
+    border-radius: 20px 20px 20px 0px;
+    box-shadow: 4px 8px 8px 4px rgba(0,0,0,0.3);
+    /* overflow: hidden; */
+}
+
+.image_container{
+
+    height: 400px;
+    
+    
+}
+.image{
+    height: 100%;
+    width:100%;
+    border-radius: 20px 20px 20px 0px;
+    object-fit: fill;
+    object-position: center;
+}
+
+.body_container{
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.price_container{
+    font-weight: 600;
+}
