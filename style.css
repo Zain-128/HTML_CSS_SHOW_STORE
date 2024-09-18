@@ -4,6 +4,23 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 li{
     list-style-type: none;
 }
+
+.upper_container{
+    max-width: 990px;
+    width: 96%;
+    margin: 0 auto;
+    background-color: aqua;
+}
+.upper_container h1{
+    text-align: center;
+    padding: 20px;
+    font-size:3.5rem;
+    font-weight: 900;
+}
+
